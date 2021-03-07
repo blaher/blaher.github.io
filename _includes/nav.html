@@ -10,22 +10,22 @@
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description_alt }}</p>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-										{% if site.linkedin %}<li>
-												<a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
-										</li>{% endif %}
-										{% if site.github-url %}<li>
-												<a href="http://github.com/{{ site.github-url }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i> Github</a>
-										</li>{% endif %}
-										{% if site.stackoverflow %}<li>
-												<a href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-stack-overflow"></i> StackOverflow</a>
-										</li>{% endif %}
-										{% if site.duolingo %}<li>
-												<a href="http://www.duolingo.com/profile/{{ site.duolingo }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-language"></i> Duolingo</a>
-										</li>{% endif %}
-										{% if site.email %}<li>
-												<a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
-										</li>{% endif %}
+					<li><a href="{{ site.resume }}" target="_blank"><span class="btn btn-inverse">Résumé</span></a></li>
+					{% if site.linkedin %}<li>
+							<a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
+					</li>{% endif %}
+					{% if site.github-url %}<li>
+							<a href="http://github.com/{{ site.github-url }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i> Github</a>
+					</li>{% endif %}
+					{% if site.stackoverflow %}<li>
+							<a href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-stack-overflow"></i> StackOverflow</a>
+					</li>{% endif %}
+					{% if site.duolingo %}<li>
+							<a href="http://www.duolingo.com/profile/{{ site.duolingo }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-language"></i> Duolingo</a>
+					</li>{% endif %}
+					{% if site.email %}<li>
+							<a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+					</li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<li>
@@ -37,24 +37,24 @@
 						<p>{{ site.description }}</p>
 					</li>
 					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-                    {% if site.facebook %}<li>
-                        <a href="http://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
-                    </li>{% endif %}
-										{% if site.instagram %}<li>
-												<a href="http://instagram.com/{{ site.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
-										</li>{% endif %}
-										{% if site.youtube %}<li>
-												<a href="https://youtube.com/user/{{ site.youtube }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-youtube-square"></i> Youtube</a>
-										</li>{% endif %}
-										{% if site.steam %}<li>
-												<a href="http://steamcommunity.com/id/{{ site.steam }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-steam-square"></i> Steam</a>
-										</li>{% endif %}
-										{% if site.spotify %}<li>
-												<a href="http://open.spotify.com/user/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-spotify"></i> Spotify</a>
-										</li>{% endif %}
-										{% if site.twitter %}<li>
-												<a href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
-										</li>{% endif %}
+          {% if site.facebook %}<li>
+              <a href="http://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+          </li>{% endif %}
+					{% if site.instagram %}<li>
+							<a href="http://instagram.com/{{ site.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+					</li>{% endif %}
+					{% if site.youtube %}<li>
+							<a href="https://youtube.com/user/{{ site.youtube }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-youtube-square"></i> Youtube</a>
+					</li>{% endif %}
+					{% if site.steam %}<li>
+							<a href="http://steamcommunity.com/id/{{ site.steam }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-steam-square"></i> Steam</a>
+					</li>{% endif %}
+					{% if site.spotify %}<li>
+							<a href="http://open.spotify.com/user/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-spotify"></i> Spotify</a>
+					</li>{% endif %}
+					{% if site.twitter %}<li>
+							<a href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+					</li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 
@@ -66,11 +66,10 @@
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description_athlete }}</p>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-						{% if site.fitbit %}<a href="http://www.fitbit.com/user/{{ site.fitbit }}" target="_blank" rel="noopener noreferrer">Fitbit</a>{% endif %}
 						{% if site.myutr %}<a href="http://app.myutr.com/profiles/{{ site.myutr }}" target="_blank" rel="noopener noreferrer">UTR</a>{% endif %}
-						{% if site.zwift %}<a href="http://www.zwift.com/athlete/{{ site.zwift }}" target="_blank" rel="noopener noreferrer">Zwift</a>{% endif %}
 						{% if site.strava %}<a href="http://www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener noreferrer">Strava</a>{% endif %}
+						{% if site.zwift %}<a href="http://www.zwift.com/athlete/{{ site.zwift }}" target="_blank" rel="noopener noreferrer">Zwift</a>{% endif %}
+						{% if site.fitbit %}<a href="http://www.fitbit.com/user/{{ site.fitbit }}" target="_blank" rel="noopener noreferrer">Fitbit</a>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<!--<li>
