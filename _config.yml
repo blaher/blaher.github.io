@@ -31,9 +31,8 @@ sass:
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
+google:
+  analytics:       G-T9V6N8GD5W
   #verify:
   #ad-client:
   #ad-slot:
@@ -41,11 +40,12 @@ sass:
 #email:
 linkedin:           blaher
 github-url:         blaher
+stackoverflow:      1007685/blaher
 facebook:           blaher
 instagram:          blaher09
 twitter:            imbenyoung
-#stackoverflow:     1007685/blaher
-#steam:              blaher
+#steam:             blaher
+#youtube:           blaher
 
 #xing:              username
 #lastfm:            username
@@ -54,7 +54,6 @@ twitter:            imbenyoung
 #pinterest:         username
 #foursquare:        username
 #dribbble:          username
-#youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
