@@ -1,37 +1,40 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About Ben
+tags: [blaher, benjamin, ben, jay, young]
+date: 2021-03-07
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+Hello there! Nice to meet you. Please, feel free to call me by Ben. Homosapien extraordinaire. CTO, investor, day trader, affiliate marketer, senior software engineer, macroeconomist, biological chemist, physicist, mathematician, analyst, philosopher, polymath, utilitarian, father, tennis player, dog whisper, human meat popsicle, or mad man; feel free to call me whatever.
 
-## Preview
-
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+In an attempt to better explain who I am, I'm just going to list some of my life events. In chronological order:
+ * Was acknowledged as a childhood artist prodigy.
+ * Learned to play several instruments.
+ * Started an organic catnip company, as a child.
+ * Picked up learning programming at the age of 13.
+ * Made programming a career path.
+ * Made some good friends in life.
+ * Flew a plane.
+ * Saved a man's life.
+ * Won quite a handful of tennis titles.
+ * Became a father.
+ * Missed out on attending MIT or OSU.
+ * Rewarded a full ride to Stark State College of Technology.
+ * Passed out of too many college courses.
+ * Dropped out of community college.
+ * Started a web development company.
+ * Studied and practiced for my Series 6 and 7.
+ * Learned to speak, write, and read several languages.
+ * Adopted a few animals as family.
+ * Managed many different teams of software engineers.
+ * Published findings in the biological chemistry field.
+ * Started an affiliate marketing company.
+ * Traveled to many places.
+ * Became an accredited investor.
+ * Help start a machine learning service company.
+ * Worked as CTO in a few different companies.
+ * Started a mass production wristwatch company.
+ * Started a real estate company.
+ * Competed in a few gravel cycling races.
+ * Wrote a machine-learning algorithm to accurately predict the S&amp;P500.
