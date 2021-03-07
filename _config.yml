@@ -25,6 +25,7 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+resume:             https://docs.google.com/document/d/e/2PACX-1vQdkok_7N2VJrJzUgS3cgvhDBoB03wJlrHWDkElIM7EQLyIXseeS0iHp2MjXFJFBRTgpx2dXYqT2bV9/pub
 
 # Comments
 #disqus_shortname:   blaher
@@ -37,7 +38,7 @@ google:
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              blaher@pm.me
 linkedin:           blaher
 github-url:         blaher
 stackoverflow:      1007685/blaher
