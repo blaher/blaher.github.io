@@ -10,7 +10,6 @@
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
-					{% if site.resume %}<li><a href="{{ site.resume }}"><span class="btn btn-inverse">Résumé</span></a></li>{% endif %}
 					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
 										{% if site.linkedin %}<li>
 												<a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
@@ -102,5 +101,7 @@
 		    {% endif %}
 		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
 		  {% endfor %}
+			{% if site.resume %}<li><a href="{{ site.resume }}"><span class="btn btn-inverse">Résumé</span></a></li>{% endif %}
+			{% if site.email %}<li><a href="email:{{ site.email }}"><span class="btn btn-inverse">Contact</span></a></li>{% endif %}
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
