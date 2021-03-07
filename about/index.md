@@ -11,6 +11,7 @@ Hello there! Nice to meet you. I have been known online as the alias of Blaher. 
 
 In an attempt to better explain who I am, I'm just going to list some of my life events. In chronological order:
  * Acknowledged as a childhood artist prodigy.
+ * Started learning to drive at the age of 6.
  * Learned to play several instruments.
  * Started an organic catnip company.
  * Picked up learning programming at the age of 13.
