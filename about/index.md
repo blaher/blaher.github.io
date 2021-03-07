@@ -46,6 +46,7 @@ In an attempt to better explain who I am, I'm just going to list some of my life
  * Became an accredited investor.
  * Help start a machine learning service company.
  * Worked as CTO in a few different companies.
+ * Went back to school.
  * Started touring for tennis matches.
  * Met a lot of great people.
  * Started a mass production wristwatch company.
