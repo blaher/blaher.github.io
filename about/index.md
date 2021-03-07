@@ -59,5 +59,7 @@ In an attempt to better explain who I am, I'm just going to list some of my life
  * Almost died again.
  * Started to live, with really enjoying and savoring life.
  * Wrote a machine-learning algorithm to accurately predict the S&amp;P500.
+ * Hired a personal assistant.
  * Started investing heavily in private equity.
+ * Hired a team of personal assistants.
  * Began campaigning in the political world, to help better serve our society.
