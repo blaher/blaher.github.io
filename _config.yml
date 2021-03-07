@@ -1,6 +1,7 @@
 # Site
 title:              "Benjamin J. Young"
-bio:                'Polymath, Utilitarian, Skeptic, and Analyst.'
+bio:                "Polymath, Utilitarian, Skeptic, and Analyst."
+location:           "Massillon, OH. United States."
 description:        "Father, Programmer, Athlete, Macro Economist, Biological Chemist, and Mad Scientist."
 description_alt:    "CTO, Senior Software Engineer, Affiliate Marketer, Day Trader, and Accredited Investor."
 description_ath:    "UTR 5.0, NTRP 3.5, 140MPH+ Service, USTA Multi-title Winner, Gravel Cyclist, and Weight Lifter."
@@ -54,10 +55,11 @@ spotify:            blaher
 steam:              blaher
 twitter:            imbenyoung
 
-fitbit:             2WJBW2
+usta:               https://tennislink.usta.com/Leagues/reports/NTRP/SearchResults.aspx?Search=Name&SearchType=W&LastName=young&FirstName=benjamin
 myutr:              663993
-zwift:              726f3a91-b8dc-4e22-9dce-a947d5212c3f
 strava:             blaher
+zwift:              726f3a91-b8dc-4e22-9dce-a947d5212c3f
+fitbit:             2WJBW2
 
 #xing:              username
 #lastfm:            username

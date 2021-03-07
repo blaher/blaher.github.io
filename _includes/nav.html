@@ -66,6 +66,7 @@
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description_athlete }}</p>
 					</li>
+						{% if site.usta %}<a href="{{ site.usta }}" target="_blank" rel="noopener noreferrer">NTRP</a>{% endif %}
 						{% if site.myutr %}<a href="http://app.myutr.com/profiles/{{ site.myutr }}" target="_blank" rel="noopener noreferrer">UTR</a>{% endif %}
 						{% if site.strava %}<a href="http://www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener noreferrer">Strava</a>{% endif %}
 						{% if site.zwift %}<a href="http://www.zwift.com/athlete/{{ site.zwift }}" target="_blank" rel="noopener noreferrer">Zwift</a>{% endif %}
