@@ -30,6 +30,7 @@ In an attempt to better explain who I am, I'm just going to list some of my life
  * Almost died.
  * Became engaged to be married.
  * Split up with my fiancée and son's mother.
+ * Wrote a trading bot to profit well on trading against volatility.
  * Bought my first house.
  * Studied and practiced for my Series 6 and 7.
  * Fell in love.
