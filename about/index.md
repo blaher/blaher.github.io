@@ -51,6 +51,7 @@ In an attempt to better explain who I am, I'm just going to list some of my life
  * Started a mass production wristwatch company.
  * Started a real estate company.
  * Competed in a few gravel cycling races.
+ * Fell in love again.
  * Almost died again.
  * Started to live, with really enjoying and savoring life.
  * Wrote a machine-learning algorithm to accurately predict the S&amp;P500.
