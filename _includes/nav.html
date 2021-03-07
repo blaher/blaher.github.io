@@ -59,7 +59,7 @@
 			</li>
 
 			<li>
-				<a href="#">Athlete</a>
+				<a href="#">Athleticism</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.logo_ath}}" alt="{{ site.title }} photo" class="author-photo">
@@ -88,6 +88,7 @@
 		    {% endif %}
 		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
 		  {% endfor %}
+			<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse"><i class="fa fa-fw fa-user"></i> About</span></a></li>
 			{% if site.resume %}<li><a href="{{ site.resume }}" target="_blank"><i class="fa fa-fw fa-file"></i> Résumé</a></li>{% endif %}
 			{% if site.email %}<li><a href="mailto:{{ site.email }}"target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Contact</a></li>{% endif %}
 		</ul><!-- /.dl-menu -->
