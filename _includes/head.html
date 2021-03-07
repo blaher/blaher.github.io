@@ -58,7 +58,7 @@
     {% endif %}
     {% if site.google.analytics %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9V6N8GD5W"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google.analytics }}"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
