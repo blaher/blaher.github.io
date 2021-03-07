@@ -1,7 +1,8 @@
 # Site
 title:              "Benjamin J. Young"
 bio:                'Polymath, Utilitarian, Skeptic, and Analyst.'
-description:        "CTO, Senior Software Engineer, Affiliate Marketer, Biological Chemist, and Trader."
+description:        "Programmer, Father, Tennis Player, Cyclist, Day Trader, and Mad Scientist."
+description_alt:    "CTO, Senior Software Engineer, Affiliate Marketer, and Investor."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -38,17 +39,22 @@ google:
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              blaher@pm.me
 linkedin:           blaher
 github-url:         blaher
 stackoverflow:      1007685/blaher
+duolingo:           blaher
+email:              blaher@pm.me
 
 facebook:           blaher
 instagram:          blaher09
-spotify:           blaher
-twitter:            imbenyoung
-#steam:             blaher
 #youtube:           blaher
+spotify:            blaher
+steam:              blaher
+twitter:            imbenyoung
+
+fitbit:             2WJBW2
+myutr:              663993
+strava:             blaher
 
 #xing:              username
 #lastfm:            username
