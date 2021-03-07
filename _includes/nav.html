@@ -6,9 +6,9 @@
 				<a href="#">Proffessional</a>
 				<ul class="dl-submenu">
 					<li>
-						<img src="{{ site.url }}/{{ site.logo_alt }}" alt="{{ site.title }} photo" class="author-photo">
-						<h4>{{ site.title }}</h4>
-						<p>{{ site.description_alt }}</p>
+						<img src="{{ site.url }}/{{ site.logo_pro }}" alt="{{ site.title_pro }} photo" class="author-photo">
+						<h4>{{ site.title_pro }}</h4>
+						<p>{{ site.description_pro }}</p>
 					</li>
 					<li><a href="{{ site.resume }}" target="_blank"><span class="btn btn-inverse">Résumé</span></a></li>
 					{% if site.linkedin %}<li>
@@ -29,11 +29,26 @@
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<li>
+				<a href="#">Athleticism</a>
+				<ul class="dl-submenu">
+					<li>
+						<img src="{{ site.url }}/{{ site.logo_ath}}" alt="{{ site.title_ath }} photo" class="author-photo">
+						<h4>{{ site.title_ath }}</h4>
+						<p>{{ site.description_ath }}</p>
+					</li>
+						{% if site.usta %}<a href="{{ site.usta }}" target="_blank" rel="noopener noreferrer">NTRP</a>{% endif %}
+						{% if site.myutr %}<a href="http://app.myutr.com/profiles/{{ site.myutr }}" target="_blank" rel="noopener noreferrer">UTR</a>{% endif %}
+						{% if site.strava %}<a href="http://www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener noreferrer">Strava</a>{% endif %}
+						{% if site.zwift %}<a href="http://www.zwift.com/athlete/{{ site.zwift }}" target="_blank" rel="noopener noreferrer">Zwift</a>{% endif %}
+						{% if site.fitbit %}<a href="http://www.fitbit.com/user/{{ site.fitbit }}" target="_blank" rel="noopener noreferrer">Fitbit</a>{% endif %}
+				</ul><!-- /.dl-submenu -->
+			</li>
+			<li>
 				<a href="#">Personal</a>
 				<ul class="dl-submenu">
 					<li>
-						<img src="{{ site.url }}/{{ site.logo}}" alt="{{ site.title }} photo" class="author-photo">
-						<h4>{{ site.title }}</h4>
+						<img src="{{ site.url }}/{{ site.logo_per}}" alt="{{ site.title_per }} photo" class="author-photo">
+						<h4>{{ site.title_per }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
 					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
@@ -55,22 +70,6 @@
 					{% if site.twitter %}<li>
 							<a href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
 					</li>{% endif %}
-				</ul><!-- /.dl-submenu -->
-			</li>
-
-			<li>
-				<a href="#">Athleticism</a>
-				<ul class="dl-submenu">
-					<li>
-						<img src="{{ site.url }}/{{ site.logo_ath}}" alt="{{ site.title }} photo" class="author-photo">
-						<h4>{{ site.title }}</h4>
-						<p>{{ site.description_ath }}</p>
-					</li>
-						{% if site.usta %}<a href="{{ site.usta }}" target="_blank" rel="noopener noreferrer">NTRP</a>{% endif %}
-						{% if site.myutr %}<a href="http://app.myutr.com/profiles/{{ site.myutr }}" target="_blank" rel="noopener noreferrer">UTR</a>{% endif %}
-						{% if site.strava %}<a href="http://www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener noreferrer">Strava</a>{% endif %}
-						{% if site.zwift %}<a href="http://www.zwift.com/athlete/{{ site.zwift }}" target="_blank" rel="noopener noreferrer">Zwift</a>{% endif %}
-						{% if site.fitbit %}<a href="http://www.fitbit.com/user/{{ site.fitbit }}" target="_blank" rel="noopener noreferrer">Fitbit</a>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<!--<li>
