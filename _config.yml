@@ -1,12 +1,14 @@
 # Site
 title:              "Benjamin J. Young"
 bio:                'Polymath, Utilitarian, Skeptic, and Analyst.'
-description:        "Programmer, Father, Tennis Player, Cyclist, Day Trader, and Mad Scientist."
-description_alt:    "CTO, Senior Software Engineer, Affiliate Marketer, and Investor."
+description:        "Father, Programmer, Athlete, Macro Economist, Biological Chemist, and Mad Scientist."
+description_alt:    "CTO, Senior Software Engineer, Affiliate Marketer, Day Trader, and Accredited Investor."
+description_ath:    "UTR 5.0, NTRP 3.5, 140MPH+ Service, USTA Multi-title Winner, Gravel Cyclist, and Weight Lifter."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 logo_alt:           'assets/img/logo_alt.png'
+logo_ath:           'assets/img/logo_ath.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -54,6 +56,7 @@ twitter:            imbenyoung
 
 fitbit:             2WJBW2
 myutr:              663993
+zwift:              726f3a91-b8dc-4e22-9dce-a947d5212c3f
 strava:             blaher
 
 #xing:              username
