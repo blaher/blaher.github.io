@@ -12,9 +12,6 @@
 					</li>
 					{% if site.resume %}<li><a href="{{ site.resume }}"><span class="btn btn-inverse">Résumé</span></a></li>{% endif %}
 					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-					{% if site.email %}<li>
-                        <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
-                    </li>{% endif %}
 										{% if site.linkedin %}<li>
 												<a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
 										</li>{% endif %}
@@ -32,6 +29,9 @@
 										</li>{% endif %}
 										{% if site.twitter %}<li>
 												<a href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+										</li>{% endif %}
+										{% if site.email %}<li>
+												<a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
 										</li>{% endif %}
 
                     {% if site.google.plus %}<li>
