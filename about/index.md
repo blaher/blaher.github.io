@@ -30,6 +30,7 @@ In an attempt to better explain who I am, I'm just going to list some of my life
  * Almost died.
  * Became engaged to be married.
  * Split up with my fiancée and son's mother.
+ * Bought my first house.
  * Studied and practiced for my Series 6 and 7.
  * Fell in love.
  * Learned to speak, write, and read several languages.
@@ -45,6 +46,7 @@ In an attempt to better explain who I am, I'm just going to list some of my life
  * Traveled to many places.
  * Became an accredited investor.
  * Help start a machine learning service company.
+ * Bought another house.
  * Worked as CTO in a few different companies.
  * Went back to school.
  * Started touring for tennis matches.
@@ -52,6 +54,7 @@ In an attempt to better explain who I am, I'm just going to list some of my life
  * Started a mass production wristwatch company.
  * Started a real estate company.
  * Competed in a few gravel cycling races.
+ * Bought an automobile that goes 0 to 60MPH in 2.9 seconds.
  * Fell in love again.
  * Almost died again.
  * Started to live, with really enjoying and savoring life.
