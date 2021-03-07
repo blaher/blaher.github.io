@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Benjamin J. Young
+title: About Benjamin Jay Young
 tags: [blaher, benjamin, ben, jay, young]
 date: 2021-03-07
 comments: false
