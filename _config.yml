@@ -1,6 +1,6 @@
 # Site
 title:              "Benjamin J. Young"
-bio:                'functional();'
+bio:                'Polymath, Utilitarian, Skeptic, and Analyst.'
 description:        "A dive in to the world of Blaher."
 reading_time:       true
 words_per_minute:   200
@@ -8,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://blaher.github.io/
+url:                http://blaher.me
 
 # Jekyll
 permalink:          /:title/
@@ -38,19 +38,20 @@ sass:
   #ad-slot:
 #bing-verify:
 #email:
-#twitter:            username
-facebook:           blaher
-github-url:         blaher
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:           blaher
-#xing:              username
+github-url:         blaher
+facebook:           blaher
 instagram:          blaher09
+twitter:            imbenyoung
+#stackoverflow:     1007685/blaher
+#steam:              blaher
+
+#xing:              username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              blaher
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
