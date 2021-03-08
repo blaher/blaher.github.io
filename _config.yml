@@ -4,6 +4,8 @@ title_pro:          "Benjamin J. Young"
 title_ath:          "Ben Young"
 title_per:          "Ben"
 bio:                "Polymath, Utilitarian, Skeptic, and Analyst."
+position:           "Managing Member"
+company:            "J. Young Holdings"
 location:           "Massillon, Ohio. United States"
 description_pro:    "CTO, Senior Software Engineer, Affiliate Marketer, Day Trader, and Accredited Investor."
 description_ath:    "UTR 5.0, NTRP 3.5, 140MPH+ Service, USTA Multi-title Winner, Gravel Cyclist, and Weight Lifter."
@@ -12,6 +14,7 @@ resume:             http://docs.google.com/document/d/e/2PACX-1vQdkok_7N2VJrJzUg
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
+logo_bus:           'assets/img/logo_bus.png'
 logo_pro:           'assets/img/logo_pro.png'
 logo_ath:           'assets/img/logo_ath.png'
 logo_per:           'assets/img/logo_per.png'
