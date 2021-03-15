@@ -10,7 +10,7 @@ location:           "Massillon, Ohio. United States"
 description_pro:    "CTO, Senior Software Engineer, Affiliate Marketer, Day Trader, and Accredited Investor."
 description_ath:    "UTR 5.0, NTRP 3.5, 140MPH+ Service, USTA Multi-title Winner, Gravel Cyclist, and Weight Lifter."
 description:        "Father, Programmer, Athlete, Macro Economist, Biological Chemist, and Mad Scientist."
-resume:             http://docs.google.com/document/d/e/2PACX-1vQdkok_7N2VJrJzUgS3cgvhDBoB03wJlrHWDkElIM7EQLyIXseeS0iHp2MjXFJFBRTgpx2dXYqT2bV9/pub
+resume:             /resume.pdf
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
