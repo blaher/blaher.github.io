@@ -1,0 +1,65 @@
+{
+    "HTML": {
+        "beautifiers": [
+            "Pretty Diff",
+            "JS-Beautify"
+        ],
+        "indent_size": 2,
+        "max_preserve_newlines": 1,
+        "quotes": "double",
+        "wrap_line_length": 120
+    },
+    "JSON": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff",
+            "JS-Beautify"
+        ],
+        "indent_size": 2,
+        "max_preserve_newlines": 1,
+        "quotes": "double"
+    },
+    "JavaScript": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff",
+            "JS-Beautify",
+            "ESLint"
+        ],
+        "indent_size": 2,
+        "max_preserve_newlines": 1,
+        "wrap_line_length": 120
+    },
+    "Markdown": {
+        "beautifiers": [
+            "Prettier"
+        ],
+        "wrap_line_length": 120
+    },
+    "XML": {
+        "beautifiers": [
+            "Pretty Diff",
+            "JS-Beautify"
+        ],
+        "indent_size": 2,
+        "max_preserve_newlines": 1,
+        "quotes": "double",
+        "wrap_line_length": 120
+    },
+    "Sass": {
+        "beautifiers": [
+            "CSScomb"
+        ]
+    },
+    "SCSS": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff",
+            "CSScomb"
+        ],
+        "indent_size": 2,
+        "max_preserve_newlines": 1,
+        "quotes": "double",
+        "wrap_line_length": 120
+    }
+}
