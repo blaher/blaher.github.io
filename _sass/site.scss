@@ -6,7 +6,12 @@
 	height: 100%;
 	font-size: 100%;
 }
-
+body {
+    background: black solid !important;
+}
+body * {
+    display: none !important;
+}
 
 html {
 	@extend %extend1;
