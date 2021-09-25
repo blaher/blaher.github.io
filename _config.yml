@@ -17,7 +17,7 @@ logo:              'assets/img/logo.png'
 logo_bus:          'assets/img/logo.png'
 logo_pro:          'assets/img/logo.png'
 logo_ath:          'assets/img/logo_tennis.png'
-logo_per:          'assets/img/logo.png'
+logo_per:          'assets/img/logo_full.png'
 background:        'assets/img/background.jpg'
 tiled_bg:          false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:            en_US
