@@ -2,7 +2,7 @@
 		<button class="dl-trigger">Open Menu</button>
 		<ul class="dl-menu">
 			<li><a href="{{ site.url }}/">Home</a></li>
-			<li>
+			<!--<li>
 				<a href="#">Businesses</a>
 				<ul class="dl-submenu">
 					<li>
@@ -13,7 +13,7 @@
 						<a href="{{ site.url }}/business" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-briefcase"></i> Businesses</a>
 					</li>
 				</ul><!-- /.dl-submenu -->
-			</li>
+			</li>-->
 			<li>
 				<a href="#">Proffessional</a>
 				<ul class="dl-submenu">
@@ -32,9 +32,9 @@
 					{% if site.stackoverflow %}<li>
 						<a href="//stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-stack-overflow"></i> StackOverflow</a>
 					</li>{% endif %}
-					{% if site.duolingo %}<li>
+					<!--{% if site.duolingo %}<li>
 						<a href="//www.duolingo.com/profile/{{ site.duolingo }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-language"></i> Duolingo</a>
-					</li>{% endif %}
+					</li>{% endif %}-->
 					{% if site.email %}<li>
 						<a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
 					</li>{% endif %}
@@ -50,9 +50,10 @@
 					</li>
 					{% if site.usta %}<a href="{{ site.usta }}" target="_blank" rel="noopener noreferrer">NTRP</a>{% endif %}
 					{% if site.myutr %}<a href="//app.myutr.com/profiles/{{ site.myutr }}" target="_blank" rel="noopener noreferrer">UTR</a>{% endif %}
+					{% if site.tennisrecord %}<a href="//www.tennisrecord.com/{{ site.tennisrecord }}" target="_blank" rel="noopener noreferrer">TennisRecord</a>{% endif %}
 					{% if site.strava %}<a href="//www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener noreferrer">Strava</a>{% endif %}
-					{% if site.zwift %}<a href="//www.zwift.com/athlete/{{ site.zwift }}" target="_blank" rel="noopener noreferrer">Zwift</a>{% endif %}
-					{% if site.fitbit %}<a href="//www.fitbit.com/user/{{ site.fitbit }}" target="_blank" rel="noopener noreferrer">Fitbit</a>{% endif %}
+					<!--{% if site.zwift %}<a href="//www.zwift.com/athlete/{{ site.zwift }}" target="_blank" rel="noopener noreferrer">Zwift</a>{% endif %}-->
+					<!--{% if site.fitbit %}<a href="//www.fitbit.com/user/{{ site.fitbit }}" target="_blank" rel="noopener noreferrer">Fitbit</a>{% endif %}-->
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<li>
@@ -70,18 +71,18 @@
 					{% if site.instagram %}<li>
 						<a href="//instagram.com/{{ site.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
 					</li>{% endif %}
-					{% if site.youtube %}<li>
+					<!--{% if site.youtube %}<li>
 						<a href="https://youtube.com/user/{{ site.youtube }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-youtube-square"></i> Youtube</a>
-					</li>{% endif %}
-					{% if site.steam %}<li>
+					</li>{% endif %}-->
+					<!--{% if site.steam %}<li>
 						<a href="//steamcommunity.com/id/{{ site.steam }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-steam-square"></i> Steam</a>
-					</li>{% endif %}
-					{% if site.spotify %}<li>
+					</li>{% endif %}-->
+					<!--{% if site.spotify %}<li>
 						<a href="//open.spotify.com/user/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-spotify"></i> Spotify</a>
-					</li>{% endif %}
-					{% if site.twitter %}<li>
-						<a href="//twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
-					</li>{% endif %}
+					</li>{% endif %}-->
+					<!--{% if site.applemusic %}<li>
+						<a href="//music.apple.com/profile/{{ site.applemusic }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-spotify"></i> Apple Music</a>
+					</li>{% endif %}-->
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<!--<li>
