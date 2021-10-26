@@ -62,7 +62,7 @@
 						<h4>{{ site.title_per }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<!--<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>-->
 					{% if site.facebook %}<li>
 						<a href="//facebook.com/{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
 					</li>{% endif %}
@@ -82,7 +82,6 @@
 			{% endif %}
 			<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer" {% endif %}>{{ link.title }}</a></li>
 			{% endfor %}
-			<li><a href="{{ site.url }}/about/"><i class="fa fa-fw fa-user"></i> About</a></li>
 			{% if site.resume %}<li><a href="{{ site.resume }}" target="_blank"><i class="fa fa-fw fa-file"></i> Résumé</a></li>{% endif %}
 			{% if site.email %}<li><a href="mailto:{{ site.email }}" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Contact</a></li>{% endif %}
 		</ul><!-- /.dl-menu -->
