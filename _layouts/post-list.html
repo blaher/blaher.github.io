@@ -33,6 +33,10 @@ layout: compress
                                 <br style="clear:both;" />
                                 <a class="zoombtn" href="{{ post.hyperlink }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
 
+                                {% if post.image %}
+                                    <img style="float:right; max-width:300px; max-height:200px; margin:2em;" src="{{ post.image }}" alt="" />
+                                {% endif %}
+
                                 <div class="entry-meta">
                                     <span class="entry-tags">
                                         {% for tag in post.tags %}
@@ -41,10 +45,6 @@ layout: compress
                                         {% endfor %}
                                     </span>
                                 </div>
-
-                                {% if post.image %}
-                                    <img style="float:right; max-width:300px; max-height:150px; margin:2em;" src="{{ post.image }}" alt="" />
-                                {% endif %}
 
                                 <p>{{ post.excerpt }}</p>
 
