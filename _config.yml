@@ -1,14 +1,14 @@
 # Site
-title:             "Benjamin J. Young"
+title:             "Benjamin Jay Young"
 title_pro:         "Benjamin J. Young"
-title_ath:         "Ben Young"
-title_per:         "Ben"
+title_ath:         "Benjamin Young"
+title_per:         "Ben Young"
 bio:               "Polymath, Utilitarian, and Analyst."
-position:          "Software Engineer"
-company:           "OnShift"
+position:          "Software Architect"
+company:           "[Classified]"
 location:          "United States"
 description_pro:   "Software Engineer, Affiliate Marketer, and Investor."
-description_ath:   "UTR 6.0+, NTRP 3.5, 150MPH+ Tennis Service, USTA Multi-title Winner, Competeing Gravel Cyclist, &amp; Weight Lifter."
+description_ath:   "UTR 6.0+, NTRP 3.5, USTA Multi-title Winner, and UCI Cat 5"
 description:       "Programmer, Athlete, Macro Economist, Biological Chemist, and Mad Scientist."
 resume:            /resume.pdf
 reading_time:      true
@@ -51,19 +51,18 @@ duolingo:          blaher
 email:             ben@blaher.me
 
 facebook:          blaher
-instagram:         imbenyoung
+instagram:         vegvisir.cyclist
 #youtube:          blaher
 spotify:           blaher
 applemusic:        imbenyoung
 steam:             blaher
-twitter:           imbenyoung
 
 usta:              //tennislink.usta.com/Leagues/reports/NTRP/SearchResults.aspx?Search=Name&SearchType=W&LastName=young&FirstName=benjamin
 myutr:             663993
 tennisrecord:      adult/profile.aspx?playername=Benjamin%20Young&s=3
-strava:            blaher
+strava:            vegvisir.cyclist
 zwift:             726f3a91-b8dc-4e22-9dce-a947d5212c3f
-fitbit:            2WJBW2
+garmin:            2WJBW2
 
 # Gems
 gems:

@@ -20,69 +20,98 @@
 					<li>
 						<img src="{{ site.url }}/{{ site.logo_pro }}" alt="{{ site.title_pro }} photo" class="author-photo">
 						<h4>{{ site.title_pro }}</h4>
-						<p>{{ site.description_pro }}</p>
+						<!--<p>{{ site.description_pro }}</p>-->
 					</li>
 					<li><a href="{{ site.resume }}" target="_blank"><span class="btn btn-inverse">Résumé</span></a></li>
-					{% if site.linkedin %}<li>
-						<a href="//linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
-					</li>{% endif %}
-					{% if site.github-url %}<li>
-						<a href="//github.com/{{ site.github-url }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i> Github</a>
-					</li>{% endif %}
-					{% if site.stackoverflow %}<li>
-						<a href="//stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-stack-overflow"></i> StackOverflow</a>
-					</li>{% endif %}
-					<!--{% if site.duolingo %}<li>
-						<a href="//www.duolingo.com/profile/{{ site.duolingo }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-language"></i> Duolingo</a>
-					</li>{% endif %}-->
-					{% if site.email %}<li>
-						<a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
-					</li>{% endif %}
+					{% if site.linkedin %}
+						<li>
+							<a href="//linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
+						</li>
+					{% endif %}
+					{% if site.github-url %}
+						<li>
+							<a href="//github.com/{{ site.github-url }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i> Github</a>
+						</li>
+					{% endif %}
+					{% if site.stackoverflow %}
+						<li>
+							<a href="//stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-stack-overflow"></i> StackOverflow</a>
+						</li>
+					{% endif %}
+					<!--{% if site.duolingo %}
+						<li>
+							<a href="//www.duolingo.com/profile/{{ site.duolingo }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-language"></i> Duolingo</a>
+						</li>
+					{% endif %}-->
+					{% if site.email %}
+						<li>
+							<a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+						</li>
+					{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
-			<!--<li>
-				<a href="#">Athleticism</a>
+			<li>
+				<a href="#">Athletics</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.logo_ath}}" alt="{{ site.title_ath }} photo" class="author-photo">
 						<h4>{{ site.title_ath }}</h4>
-						<p>{{ site.description_ath }}</p>
+						<!--<p>{{ site.description_ath }}</p>-->
 					</li>
-					{% if site.usta %}<li><a href="{{ site.usta }}" target="_blank" rel="noopener noreferrer">NTRP</a></li>{% endif %}
-					{% if site.myutr %}<li><a href="//app.myutr.com/profiles/{{ site.myutr }}" target="_blank" rel="noopener noreferrer">UTR</a></li>{% endif %}
-					{% if site.tennisrecord %}<li><a href="//www.tennisrecord.com/{{ site.tennisrecord }}" target="_blank" rel="noopener noreferrer">TennisRecord</a></li>{% endif %}
-					{% if site.strava %}<li><a href="//www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener noreferrer">Strava</a></li>{% endif %}
+					{% if site.usta %}
+						<li><a href="{{ site.usta }}" target="_blank" rel="noopener noreferrer">NTRP</a></li>
+					{% endif %}
+					{% if site.myutr %}
+						<li><a href="//app.myutr.com/profiles/{{ site.myutr }}" target="_blank" rel="noopener noreferrer">UTR</a></li>
+					{% endif %}
+					{% if site.tennisrecord %}
+						<li><a href="//www.tennisrecord.com/{{ site.tennisrecord }}" target="_blank" rel="noopener noreferrer">TennisRecord</a></li>
+					{% endif %}
+					{% if site.strava %}
+						<li><a href="//www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener noreferrer">Strava</a></li>
+					{% endif %}
 				</ul>
-			</li>-->
+			</li>
 			<li>
 				<a href="#">Personal</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.logo_per}}" alt="{{ site.title_per }} photo" class="author-photo">
 						<h4>{{ site.title_per }}</h4>
-						<p>{{ site.description }}</p>
+						<!--<p>{{ site.description }}</p>-->
 					</li>
-					<!--<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>-->
-					{% if site.facebook %}<li>
-						<a href="//facebook.com/{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
-					</li>{% endif %}
-					{% if site.instagram %}<li>
-						<a href="//instagram.com/{{ site.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
-					</li>{% endif %}
-					{% if site.applemusic %}<li>
-						<a href="//music.apple.com/profile/{{ site.applemusic }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-music"></i> Apple Music</a>
-					</li>{% endif %}
+					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					{% if site.facebook %}
+						<li>
+							<a href="//facebook.com/{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+						</li>
+					{% endif %}
+					{% if site.instagram %}
+						<li>
+							<a href="//instagram.com/{{ site.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+						</li>
+					{% endif %}
+					<!--{% if site.applemusic %}
+						<li>
+							<a href="//music.apple.com/profile/{{ site.applemusic }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-music"></i> Apple Music</a>
+						</li>
+					{% endif %}-->
 				</ul>
 			</li>
 			{% for link in site.data.navigation %}
-			{% if link.url contains 'http' %}
-			{% assign domain = '' %}
-			{% else %}
-			{% assign domain = site.url %}
-			{% endif %}
-			<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer" {% endif %}>{{ link.title }}</a></li>
+				{% if link.url contains 'http' %}
+					{% assign domain = '' %}
+				{% else %}
+					{% assign domain = site.url %}
+				{% endif %}
+				<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer" {% endif %}>{{ link.title }}</a></li>
 			{% endfor %}
-			{% if site.resume %}<li><a href="{{ site.resume }}" target="_blank"><i class="fa fa-fw fa-file"></i> Résumé</a></li>{% endif %}
-			{% if site.email %}<li><a href="mailto:{{ site.email }}" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Contact</a></li>{% endif %}
+
+			<!--{% if site.resume %}
+				<li><a href="{{ site.resume }}" target="_blank"><i class="fa fa-fw fa-file"></i> Résumé</a></li>
+			{% endif %}-->
+			{% if site.email %}
+				<li><a href="mailto:{{ site.email }}" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Contact</a></li>
+			{% endif %}
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
