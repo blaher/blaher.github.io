@@ -43,6 +43,7 @@ sass:
 google:
   analytics:       G-T9V6N8GD5W
 #bing-verify:
+orcid:             0009-0007-9787-5311
 linkedin:          blaher
 github-url:        blaher
 stackoverflow:     1007685/blaher
@@ -61,6 +62,8 @@ myutr:             663993
 tennisrecord:      adult/profile.aspx?playername=Benjamin%20Young&s=3
 strava:            vegvisir.cyclist
 zwift:             726f3a91-b8dc-4e22-9dce-a947d5212c3f
+#bikereg:           
+parkrun:           8194765
 garmin:            2WJBW2
 
 # Gems

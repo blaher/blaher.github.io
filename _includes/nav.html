@@ -38,6 +38,11 @@
 							<a href="//stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-stack-overflow"></i> StackOverflow</a>
 						</li>
 					{% endif %}
+					{% if site.orcid %}
+						<li>
+							<a href="//orcid.org/{{ site.orcid }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-microscope"></i> ORCID</a>
+						</li>
+					{% endif %}
 					<!--{% if site.duolingo %}
 						<li>
 							<a href="//www.duolingo.com/profile/{{ site.duolingo }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-language"></i> Duolingo</a>
@@ -66,6 +71,12 @@
 					{% endif %}
 					{% if site.tennisrecord %}
 						<li><a href="//www.tennisrecord.com/{{ site.tennisrecord }}" target="_blank" rel="noopener noreferrer">TennisRecord</a></li>
+					{% endif %}
+					{% if site.bikereg %}
+						<li><a href="//results.bikereg.com/racer/{{ site.bikereg }}" target="_blank" rel="noopener noreferrer">BikeReg</a></li>
+					{% endif %}
+					{% if site.parkrun %}
+						<li><a href="//www.parkrun.us/parkrunner/{{ site.parkrun }}" target="_blank" rel="noopener noreferrer">ParkRun</a></li>
 					{% endif %}
 					{% if site.strava %}
 						<li><a href="//www.strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener noreferrer">Strava</a></li>
