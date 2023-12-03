@@ -35,7 +35,9 @@ layout: compress
                                 <a class="zoombtn" href="{{ post.hyperlink }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
 
                                 {% if post.image %}
-                                    <img style="float:right; max-width:300px; max-height:200px; margin:2em 0 2em 2em;" src="{{ post.image }}" alt="" />
+                                    <a href="{{ post.image }}" class="image-popup">
+                                        <img style="float:right; max-width:300px; max-height:200px; margin:2em 0 2em 2em;" src="{{ post.image }}" alt="" />
+                                    </a>
                                 {% endif %}
 
                                 <div class="entry-meta">
