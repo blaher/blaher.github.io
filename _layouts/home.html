@@ -14,49 +14,48 @@ layout: compress
 </head>
 
 <body>
-    <!--% include nav.html %-->
+    {% include nav.html %}
     <!-- Header -->
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
             <div class="row">
-                <p>There's nothing left here to see. Please move on.</p>
-                <!--<a href="{{ site.url }}/about">
+                <a href="{{ site.url }}/about">
                     <img src="{{ site.logo }}" class="img-circle zoombtn animated">
-                </a>-->
-                <!--<h1 class="title">{{ site.title }}</h1>-->
-                <!--<h3 class="title">
+                </a>
+                <h1 class="title">{{ site.title }}</h1>
+                <h3 class="title">
                     <a href="{{ site.url }}">
                         <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
                     </a>
-                </h3>-->
-                <!--<h3 class="title">
+                </h3>
+                <h3 class="title">
                     <a href="{{ site.url }}/business">
                         <p style="font-size:1rem;font-weight:300"><i class="fa fa-fw fa-briefcase"></i> {{ site.position }} at {{ site.company }}</p>
                     </a>
-                </h3>-->
-                <!--<h3 class="title">
+                </h3>
+                <h3 class="title">
                     <a href="{{ site.url }}">
                         <p style="font-size:1rem;font-weight:300"><i class="fa fa-fw fa-map-marker"></i> {{ site.location }}</p>
                     </a>
-                </h3>-->
-                <!--<hr class="hr-line">-->
-                <!--% include social-links.html %-->
+                </h3>
+                <hr class="hr-line">
+                {% include social-links.html %}
                 <h3 class="title">
-                    <!--<a class="btn zoombtn" href="{{ site.url }}/about">
+                    <a class="btn zoombtn" href="{{ site.url }}/about">
                         <i class="fa fa-fw fa-user"></i> About
-                    </a>-->
-                    <!--<a class="btn zoombtn" href="{{ site.resume }}" target="_blank">
+                    </a>
+                    <a class="btn zoombtn" href="{{ site.resume }}" target="_blank">
                         <i class="fa fa-fw fa-file"></i> Résumé
-                    </a>-->
-                    <!--<a class="btn zoombtn" href="{{ site.url }}/posts">
+                    </a>
+                    <a class="btn zoombtn" href="{{ site.url }}/posts">
                            Posts
-                    </a>-->
-                    <!--<a class="btn zoombtn" href="{{ site.url }}/projects">
+                    </a>
+                    <a class="btn zoombtn" href="{{ site.url }}/projects">
                            Projects
-                    </a>-->
-                    <!--<a class="btn zoombtn" href="mailto:{{ site.email }}" target="_blank">
+                    </a>
+                    <a class="btn zoombtn" href="mailto:{{ site.email }}" target="_blank">
                         <i class="fa fa-fw fa-envelope-square"></i> Contact
-                    </a>-->
+                    </a>
                 </h3>
             </div>
         </div>
