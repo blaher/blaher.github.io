@@ -118,6 +118,8 @@
 				<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer" {% endif %}>{{ link.title }}</a></li>
 			{% endfor %}
 
+			<li><a href="mailto:{{ site.url }}/news/" target="_blank"><i class="fa fa-fw fa-newspaper-o"></i> News</a></li>
+
 			<!--{% if site.resume %}
 				<li><a href="{{ site.resume }}" target="_blank"><i class="fa fa-fw fa-file"></i> Résumé</a></li>
 			{% endif %}-->
