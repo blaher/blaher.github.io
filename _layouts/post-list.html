@@ -30,7 +30,7 @@ layout: compress
                         {% if post.project == null %}
                         <ul>
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                                <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                                <a class="zoombtn" href="{{ post.hyperlink }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
                                 {% if post.image %}
                                     <img style="float:right; max-width:300px; max-height:150px; margin:1em 2em;" src="{{ post.image }}" alt="" />
                                 {% endif %}
