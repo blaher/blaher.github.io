@@ -25,6 +25,7 @@ layout: compress
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
                 </div>
+                <p>Find out the latest news of what Ben Young is up to.</p>
                 <div class="post-list">
                     {% for post in site.posts %}
                         {% if post.project == null %}
@@ -34,7 +35,7 @@ layout: compress
                                 <a class="zoombtn" href="{{ post.hyperlink }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
 
                                 {% if post.image %}
-                                    <img style="float:right; max-width:300px; max-height:200px; margin:2em;" src="{{ post.image }}" alt="" />
+                                    <img style="float:right; max-width:300px; max-height:200px; margin:2em 0 2em 2em;" src="{{ post.image }}" alt="" />
                                 {% endif %}
 
                                 <div class="entry-meta">
