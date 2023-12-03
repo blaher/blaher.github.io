@@ -32,10 +32,12 @@ layout: compress
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <a class="zoombtn" href="{{ post.hyperlink }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
                                 {% if post.image %}
-                                    <img style="float:right; max-width:300px; max-height:150px; margin:1em 2em;" src="{{ post.image }}" alt="" />
+                                    <img style="float:right; max-width:300px; max-height:150px; margin:2em;" src="{{ post.image }}" alt="" />
                                 {% endif %}
                                 <p>{{ post.excerpt }}</p>
+                                <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
                                 <a href="{{ post.hyperlink }}" class="btn zoombtn" target="_blank" rel="noopener noreferrer">Read More</a>
+                                <br />
                             </li>
                         </ul>
                         {% endif %}
