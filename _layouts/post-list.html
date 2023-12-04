@@ -36,7 +36,7 @@ layout: compress
 
                                 {% if post.image %}
                                     <a href="{{ post.image }}" class="image-popup">
-                                        <img style="float:right; max-width:300px; max-height:200px; margin:0 0 2em 2em;" src="{{ post.image }}" alt="" />
+                                        <img style="float:right; max-width:300px; max-height:200px; margin:1em 0 2em 2em;" src="{{ post.image }}" alt="" />
                                     </a>
                                 {% endif %}
 
@@ -47,16 +47,26 @@ layout: compress
 
                                 <hr />
 
+                                <div class="entry-meta">
+                                    <span class="entry-tags">
+                                        {% for tag in post.tags %}
+                                            <a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a>
+                                        {% unless forloop.last %}{% endunless %}
+                                        {% endfor %}
+                                    </span>
+                                </div>
+
                                 <span class="social-share">
                                     <a href="//www.facebook.com/sharer/sharer.php?u={{ post.hyperlink }}" title="Share on Facebook" class="tag">
-                                        <span class="term"><i class="fa fa-facebook-square"></i> Share</span>
+                                        <span class="term"><i class="fa fa-facebook-square"></i></span>
                                     </a>
                                     <a href="//twitter.com/intent/tweet?text={{ post.hyperlink }}" title="Share on Twitter" class="tag">
-                                        <span class="term"><i class="fa fa-twitter-square"></i> Tweet</span>
+                                        <span class="term"><i class="fa fa-twitter-square"></i></span>
                                     </a>
                                 </span>
 
                                 <div style="clear:both"></div>
+                                <br />
                             </li>
                         </ul>
                         {% endif %}
