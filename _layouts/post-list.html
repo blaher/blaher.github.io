@@ -32,15 +32,15 @@ layout: compress
                         <ul>
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <br style="clear:both;" />
-                                <h2><a class="zoombtn" href="{{ post.hyperlink }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a></h2>
+                                <a class="zoombtn" href="{{ post.hyperlink }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
 
                                 {% if post.image %}
                                     <a href="{{ post.image }}" class="image-popup">
-                                        <img style="float:right; max-width:300px; max-height:200px; margin:2em 0 2em 2em;" src="{{ post.image }}" alt="" />
+                                        <img style="float:right; max-width:300px; max-height:200px; margin:0 0 2em 2em;" src="{{ post.image }}" alt="" />
                                     </a>
                                 {% endif %}
 
-                                <em>{{ page.date | date_to_string }}</em>
+                                <em>{{ post.date | date_to_string }}</em>
                                 <p>{{ post.excerpt }}</p>
 
                                 <a href="{{ post.hyperlink }}" class="btn zoombtn" target="_blank" rel="noopener noreferrer">Read More</a>
