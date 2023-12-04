@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2022 18+ and 40+ 3.0 Playoff Previews & Predictions!"
+title: "2022 18+ 3.0 Playoff Previews & Predictions!"
 date: 2022-07-22
 source: Double Fault News
 excerpt: "Did NCRC win because of Ben's play, his fiery speeches, or NCRC's posh club atmosphere?  YES!"
